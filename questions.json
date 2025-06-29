@@ -1,0 +1,352 @@
+[
+  {
+    "question": "Which amendment protects freedom of speech?",
+    "options": ["First Amendment", "Second Amendment", "Fourth Amendment", "Fifth Amendment"],
+    "answer": "First Amendment",
+    "explanation": "The First Amendment to the U.S. Constitution protects freedom of speech, religion, press, assembly, and petition.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "Which of the following is required for a valid contract?",
+    "options": ["Mutual assent", "A license", "A notary", "A witness"],
+    "answer": "Mutual assent",
+    "explanation": "A valid contract requires mutual assent (offer and acceptance), consideration, legal capacity, and lawful purpose.",
+    "category": "Contracts"
+  },
+  {
+    "question": "Which court is the highest in the United States?",
+    "options": ["Supreme Court", "Court of Appeals", "District Court", "Family Court"],
+    "answer": "Supreme Court",
+    "explanation": "The U.S. Supreme Court is the highest court in the federal system and has ultimate appellate jurisdiction.",
+    "category": "Civil Procedure"
+  },
+  {
+    "question": "What is the burden of proof in a criminal case?",
+    "options": ["Preponderance of evidence", "Clear and convincing", "Beyond a reasonable doubt", "Probable cause"],
+    "answer": "Beyond a reasonable doubt",
+    "explanation": "Criminal cases require proof beyond a reasonable doubt, the highest burden of proof in the legal system.",
+    "category": "Criminal Law"
+  },
+  {
+    "question": "Which doctrine allows courts to refuse to hear a case that is not yet ripe?",
+    "options": ["Standing", "Mootness", "Ripeness", "Political question"],
+    "answer": "Ripeness",
+    "explanation": "The ripeness doctrine prevents courts from hearing cases where the harm is speculative or has not yet occurred.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the Miranda warning requirement based on?",
+    "options": ["Fourth Amendment", "Fifth Amendment", "Sixth Amendment", "Eighth Amendment"],
+    "answer": "Fifth Amendment",
+    "explanation": "Miranda warnings are based on the Fifth Amendment's protection against self-incrimination.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "In tort law, what is the standard for negligence?",
+    "options": ["Strict liability", "Reasonable person standard", "Absolute liability", "Intent to harm"],
+    "answer": "Reasonable person standard",
+    "explanation": "Negligence is measured by what a reasonable person would do under similar circumstances.",
+    "category": "Torts"
+  },
+  {
+    "question": "Which clause gives Congress the power to regulate interstate commerce?",
+    "options": ["Due Process Clause", "Equal Protection Clause", "Commerce Clause", "Supremacy Clause"],
+    "answer": "Commerce Clause",
+    "explanation": "The Commerce Clause in Article I, Section 8 gives Congress broad power to regulate interstate commerce.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is required for a valid will?",
+    "options": ["Testamentary capacity", "Notarization", "Three witnesses", "Court approval"],
+    "answer": "Testamentary capacity",
+    "explanation": "A valid will requires testamentary capacity, proper execution, and compliance with state formalities.",
+    "category": "Wills and Estates"
+  },
+  {
+    "question": "Which of the following is an example of strict liability?",
+    "options": ["Medical malpractice", "Defective products", "Breach of contract", "Trespass"],
+    "answer": "Defective products",
+    "explanation": "Product liability often imposes strict liability, meaning no fault need be proven.",
+    "category": "Torts"
+  },
+  {
+    "question": "What is the exclusionary rule?",
+    "options": ["Evidence obtained illegally cannot be used in court", "Defendants can exclude certain jurors", "Some witnesses cannot testify", "Certain crimes cannot be prosecuted"],
+    "answer": "Evidence obtained illegally cannot be used in court",
+    "explanation": "The exclusionary rule prevents the use of evidence obtained in violation of constitutional rights.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "Which amendment prohibits cruel and unusual punishment?",
+    "options": ["Sixth Amendment", "Seventh Amendment", "Eighth Amendment", "Ninth Amendment"],
+    "answer": "Eighth Amendment",
+    "explanation": "The Eighth Amendment prohibits excessive bail, excessive fines, and cruel and unusual punishment.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the statute of limitations?",
+    "options": ["Time limit for filing a lawsuit", "Maximum sentence for a crime", "Number of appeals allowed", "Required jury size"],
+    "answer": "Time limit for filing a lawsuit",
+    "explanation": "A statute of limitations sets the maximum time period within which legal proceedings must be initiated.",
+    "category": "Civil Procedure"
+  },
+  {
+    "question": "Which legal principle means 'let the decision stand'?",
+    "options": ["Res judicata", "Stare decisis", "Habeas corpus", "Amicus curiae"],
+    "answer": "Stare decisis",
+    "explanation": "Stare decisis is the doctrine that courts should follow precedent and not overturn settled law.",
+    "category": "Civil Procedure"
+  },
+  {
+    "question": "What is consideration in contract law?",
+    "options": ["Something of value exchanged", "Careful thought", "Legal advice", "Written agreement"],
+    "answer": "Something of value exchanged",
+    "explanation": "Consideration is a bargained-for exchange of something of value between parties to a contract.",
+    "category": "Contracts"
+  },
+  {
+    "question": "Which amendment guarantees the right to counsel?",
+    "options": ["Fifth Amendment", "Sixth Amendment", "Seventh Amendment", "Eighth Amendment"],
+    "answer": "Sixth Amendment",
+    "explanation": "The Sixth Amendment guarantees the right to counsel in criminal prosecutions.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the difference between murder and manslaughter?",
+    "options": ["Intent", "Weapon used", "Location", "Victim's age"],
+    "answer": "Intent",
+    "explanation": "Murder requires intent to kill, while manslaughter is killing without malice aforethought.",
+    "category": "Criminal Law"
+  },
+  {
+    "question": "Which doctrine prevents the same person from being tried twice for the same crime?",
+    "options": ["Due process", "Double jeopardy", "Equal protection", "Probable cause"],
+    "answer": "Double jeopardy",
+    "explanation": "The Double Jeopardy Clause of the Fifth Amendment prevents being tried twice for the same offense.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "What is required for a search warrant?",
+    "options": ["Probable cause", "Reasonable suspicion", "Clear and present danger", "Preponderance of evidence"],
+    "answer": "Probable cause",
+    "explanation": "The Fourth Amendment requires probable cause for the issuance of search warrants.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "Which of the following is NOT a requirement for adverse possession?",
+    "options": ["Open and notorious", "Continuous", "Hostile", "Consensual"],
+    "answer": "Consensual",
+    "explanation": "Adverse possession requires hostile possession; consensual use does not qualify.",
+    "category": "Property Law"
+  },
+  {
+    "question": "What is the purpose of the Establishment Clause?",
+    "options": ["Separate church and state", "Protect property rights", "Ensure fair trials", "Regulate commerce"],
+    "answer": "Separate church and state",
+    "explanation": "The Establishment Clause prevents government from establishing an official religion or favoring one religion.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "In evidence law, what is hearsay?",
+    "options": ["Out-of-court statement offered for truth", "Witness testimony", "Physical evidence", "Expert opinion"],
+    "answer": "Out-of-court statement offered for truth",
+    "explanation": "Hearsay is an out-of-court statement offered to prove the truth of the matter asserted.",
+    "category": "Evidence"
+  },
+  {
+    "question": "What is the 'business judgment rule'?",
+    "options": ["Protects corporate directors from liability", "Regulates business licenses", "Governs contract disputes", "Sets minimum wage"],
+    "answer": "Protects corporate directors from liability",
+    "explanation": "The business judgment rule protects directors from liability for decisions made in good faith.",
+    "category": "Corporate Law"
+  },
+  {
+    "question": "Which amendment protects against unreasonable searches and seizures?",
+    "options": ["Third Amendment", "Fourth Amendment", "Fifth Amendment", "Sixth Amendment"],
+    "answer": "Fourth Amendment",
+    "explanation": "The Fourth Amendment protects against unreasonable searches and seizures by government.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the 'fruit of the poisonous tree' doctrine?",
+    "options": ["Evidence derived from illegal search is inadmissible", "Witnesses can be impeached", "Contracts can be voided", "Property can be seized"],
+    "answer": "Evidence derived from illegal search is inadmissible",
+    "explanation": "This doctrine excludes evidence obtained through exploitation of prior illegal evidence.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "Which standard of review is most deferential to government action?",
+    "options": ["Strict scrutiny", "Intermediate scrutiny", "Rational basis", "Compelling interest"],
+    "answer": "Rational basis",
+    "explanation": "Rational basis review is the most deferential standard, requiring only a legitimate government interest.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the difference between libel and slander?",
+    "options": ["Written vs. spoken defamation", "Truth vs. falsehood", "Public vs. private figure", "Intent vs. negligence"],
+    "answer": "Written vs. spoken defamation",
+    "explanation": "Libel is written defamation, while slander is spoken defamation.",
+    "category": "Torts"
+  },
+  {
+    "question": "Which of the following creates an attorney-client privilege?",
+    "options": ["Confidential legal consultation", "Payment of fees", "Written contract", "Court appointment"],
+    "answer": "Confidential legal consultation",
+    "explanation": "Attorney-client privilege protects confidential communications for the purpose of legal advice.",
+    "category": "Professional Responsibility"
+  },
+  {
+    "question": "What is 'piercing the corporate veil'?",
+    "options": ["Holding shareholders personally liable", "Dissolving a corporation", "Merging companies", "Going public"],
+    "answer": "Holding shareholders personally liable",
+    "explanation": "Piercing the corporate veil allows courts to hold shareholders liable for corporate debts.",
+    "category": "Corporate Law"
+  },
+  {
+    "question": "In criminal law, what is the actus reus?",
+    "options": ["Guilty act", "Guilty mind", "Criminal intent", "Motive"],
+    "answer": "Guilty act",
+    "explanation": "Actus reus is the physical act or conduct that constitutes the criminal behavior.",
+    "category": "Criminal Law"
+  },
+  {
+    "question": "Which amendment guarantees a jury trial in civil cases?",
+    "options": ["Sixth Amendment", "Seventh Amendment", "Eighth Amendment", "Ninth Amendment"],
+    "answer": "Seventh Amendment",
+    "explanation": "The Seventh Amendment guarantees the right to jury trial in federal civil cases.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the 'reasonable person' standard in negligence?",
+    "options": ["Objective standard of care", "Subjective intent", "Expert testimony", "Statutory requirement"],
+    "answer": "Objective standard of care",
+    "explanation": "The reasonable person standard is an objective test based on how a hypothetical reasonable person would act.",
+    "category": "Torts"
+  },
+  {
+    "question": "Which doctrine allows federal law to override state law?",
+    "options": ["Supremacy Clause", "Commerce Clause", "Due Process", "Equal Protection"],
+    "answer": "Supremacy Clause",
+    "explanation": "The Supremacy Clause makes federal law supreme over conflicting state law.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is required for a valid marriage?",
+    "options": ["Legal capacity and consent", "Religious ceremony", "Blood test", "Waiting period"],
+    "answer": "Legal capacity and consent",
+    "explanation": "A valid marriage requires legal capacity (age, mental capacity) and mutual consent.",
+    "category": "Family Law"
+  },
+  {
+    "question": "In contract law, what is a breach?",
+    "options": ["Failure to perform obligations", "Mistake in formation", "Lack of consideration", "Illegal purpose"],
+    "answer": "Failure to perform obligations",
+    "explanation": "A breach occurs when a party fails to perform their contractual obligations.",
+    "category": "Contracts"
+  },
+  {
+    "question": "What is the 'best interests of the child' standard?",
+    "options": ["Custody determination principle", "Adoption requirement", "Education mandate", "Medical consent"],
+    "answer": "Custody determination principle",
+    "explanation": "Courts use the best interests standard to determine child custody arrangements.",
+    "category": "Family Law"
+  },
+  {
+    "question": "Which of the following is an equitable remedy?",
+    "options": ["Specific performance", "Monetary damages", "Punitive damages", "Nominal damages"],
+    "answer": "Specific performance",
+    "explanation": "Specific performance is an equitable remedy requiring actual performance of contractual obligations.",
+    "category": "Contracts"
+  },
+  {
+    "question": "What is the 'eggshell skull' rule in tort law?",
+    "options": ["Take victim as you find them", "Comparative negligence", "Assumption of risk", "Contributory negligence"],
+    "answer": "Take victim as you find them",
+    "explanation": "The eggshell skull rule holds tortfeasors liable for all consequences, even if victim is unusually fragile.",
+    "category": "Torts"
+  },
+  {
+    "question": "Which amendment protects the right to bear arms?",
+    "options": ["First Amendment", "Second Amendment", "Third Amendment", "Fourth Amendment"],
+    "answer": "Second Amendment",
+    "explanation": "The Second Amendment protects the right to keep and bear arms.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the 'mailbox rule' in contracts?",
+    "options": ["Acceptance effective when sent", "Offer must be written", "Contract must be mailed", "Revocation requires notice"],
+    "answer": "Acceptance effective when sent",
+    "explanation": "Under the mailbox rule, acceptance is effective when properly dispatched, not when received.",
+    "category": "Contracts"
+  },
+  {
+    "question": "In criminal procedure, what is an arraignment?",
+    "options": ["Defendant enters plea", "Jury selection", "Sentencing hearing", "Evidence presentation"],
+    "answer": "Defendant enters plea",
+    "explanation": "An arraignment is the proceeding where the defendant is formally charged and enters a plea.",
+    "category": "Criminal Procedure"
+  },
+  {
+    "question": "What is the 'zone of danger' rule?",
+    "options": ["Emotional distress liability", "Self-defense justification", "Property damage", "Contract formation"],
+    "answer": "Emotional distress liability",
+    "explanation": "The zone of danger rule limits recovery for emotional distress to those within the zone of physical danger.",
+    "category": "Torts"
+  },
+  {
+    "question": "Which of the following is a fiduciary duty?",
+    "options": ["Loyalty", "Efficiency", "Profitability", "Innovation"],
+    "answer": "Loyalty",
+    "explanation": "Fiduciary duties include loyalty, care, and good faith toward the beneficiary.",
+    "category": "Corporate Law"
+  },
+  {
+    "question": "What is the 'last clear chance' doctrine?",
+    "options": ["Plaintiff can recover despite contributory negligence", "Defendant's final opportunity", "Contract modification", "Appeal deadline"],
+    "answer": "Plaintiff can recover despite contributory negligence",
+    "explanation": "The last clear chance doctrine allows recovery when defendant had the last opportunity to avoid harm.",
+    "category": "Torts"
+  },
+  {
+    "question": "In property law, what is a fee simple absolute?",
+    "options": ["Highest form of ownership", "Lease agreement", "Mortgage term", "Zoning restriction"],
+    "answer": "Highest form of ownership",
+    "explanation": "Fee simple absolute is the most complete form of property ownership with no restrictions.",
+    "category": "Property Law"
+  },
+  {
+    "question": "What is the 'clean hands' doctrine?",
+    "options": ["Plaintiff must act ethically to seek equity", "Evidence handling procedure", "Jury selection rule", "Sentencing guideline"],
+    "answer": "Plaintiff must act ethically to seek equity",
+    "explanation": "The clean hands doctrine prevents recovery in equity if plaintiff acted unethically.",
+    "category": "Civil Procedure"
+  },
+  {
+    "question": "Which of the following is required for a valid gift?",
+    "options": ["Intent, delivery, acceptance", "Written agreement", "Witness present", "Monetary value"],
+    "answer": "Intent, delivery, acceptance",
+    "explanation": "A valid gift requires donative intent, delivery, and acceptance by the recipient.",
+    "category": "Property Law"
+  },
+  {
+    "question": "What is the 'attractive nuisance' doctrine?",
+    "options": ["Landowner liability for child trespassers", "Contract formation", "Criminal defense", "Property valuation"],
+    "answer": "Landowner liability for child trespassers",
+    "explanation": "The attractive nuisance doctrine imposes liability on landowners for injuries to child trespassers.",
+    "category": "Torts"
+  },
+  {
+    "question": "In constitutional law, what is substantive due process?",
+    "options": ["Protection of fundamental rights", "Procedural fairness", "Equal treatment", "Separation of powers"],
+    "answer": "Protection of fundamental rights",
+    "explanation": "Substantive due process protects fundamental rights from government interference regardless of procedure.",
+    "category": "Constitutional Law"
+  },
+  {
+    "question": "What is the 'rule against perpetuities'?",
+    "options": ["Limits on future interests in property", "Contract duration", "Statute of limitations", "Appeal deadlines"],
+    "answer": "Limits on future interests in property",
+    "explanation": "The rule against perpetuities prevents property interests from vesting too far in the future.",
+    "category": "Property Law"
+  }
+]

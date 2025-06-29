@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    let timeLeft = 30;
+
+    function updateTimer() {
+      const timer = document.getElementById("timer");
+      const progress = document.getElementById("progress-bar");
+
+      timeLeft--;
+
+      if (timeLeft <= 5) {
+        timer.classList.add("text-red-500");
+      }
+
+      if (timeLeft <= 0) {
+        timer.innerText = "⏱ Time's up!";
+        document.getElementById("submit-btn").disabled = true;
+        const inputs = document.querySelectorAll("input[type='radio']");
+        inputs.forEach(i => i.disabled = true);
+        progress.style.width = "0%";
+        return;
+      }
+
+      timer.innerText = `⏱ ${timeLeft} seconds left`;
+      progress.style.width = `${(timeLeft / 30) * 100}%`;
+      setTimeout(updateTimer, 1000);
+    }
+
+    window.onload = updateTimer;
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-6 min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-2xl bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+    <h1 class="text-2xl font-bold mb-2">🧠 Question {{ q_number }}</h1>
+
+    <div class="mb-2 font-medium" id="timer">⏱ 30 seconds left</div>
+    <div class="w-full bg-gray-300 dark:bg-gray-700 h-2 rounded mb-4">
+      <div id="progress-bar" class="bg-blue-500 h-2 rounded" style="width: 100%;"></div>
+    </div>
+
+    <form method="POST" action="{{ url_for('submit') }}">
+      <p class="text-lg mb-4">{{ question.question }}</p>
+
+      <div class="space-y-2">
+        {% for option in question.options %}
+          <label class="block bg-gray-200 dark:bg-gray-700 rounded p-2 cursor-pointer">
+            <input type="radio" name="option" value="{{ option }}" required class="mr-2" />
+            {{ option }}
+          </label>
+        {% endfor %}
+      </div>
+
+      {% if feedback %}
+        <div class="mt-6 p-4 rounded-lg {% if feedback.result == 'correct' %}bg-green-100 dark:bg-green-900{% else %}bg-red-100 dark:bg-red-900{% endif %}">
+          <p class="font-semibold">
+            {% if feedback.result == 'correct' %}
+              ✅ Correct!
+            {% else %}
+              ❌ Incorrect. The correct answer was: <strong>{{ feedback.correct }}</strong>
+            {% endif %}
+          </p>
+          <p class="text-sm mt-2 italic">{{ feedback.explanation }}</p>
+        </div>
+      {% endif %}
+
+      <div class="mt-6 flex justify-between items-center">
+        {% if feedback %}
+          <a href="{{ url_for('next_question') }}" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Next Question</a>
+        {% else %}
+          <button type="submit" id="submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Submit</button>
+          <a href="{{ url_for('next_question') }}" class="ml-4 text-sm text-gray-400 hover:text-gray-200">⏭️ Skip</a>
+        {% endif %}
+      </div>
+    </form>
+  </div>
+</body>
+</html>
